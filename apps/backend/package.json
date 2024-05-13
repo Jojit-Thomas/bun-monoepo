@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "module": "src/index.ts",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elachisync": "workspace:*",
+    "@elysiajs/cors": "^1.0.2",
+    "axios": "^1.6.8",
+    "elysia": "^1.0.16",
+    "mongoose": "^8.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "bun-types": "latest",
+    "zod": "^3.23.6"
+  }
+}

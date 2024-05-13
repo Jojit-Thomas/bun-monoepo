@@ -1,0 +1,16 @@
+{
+  "name": "backend-api",
+  "version": "0.0.0",
+  "main": "./src/index.ts",
+  "devDependencies": {
+    "backend": "workspace:*",
+    "elysia": "^1.0.16",
+    "typescript": "^5.2.2"
+  },
+  "license": "MIT",
+  "scripts": {},
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@elysiajs/eden": "^1.0.12"
+  }
+}
